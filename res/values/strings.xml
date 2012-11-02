@@ -1,0 +1,25 @@
+<resources>
+
+				<string name="app_name">CallRec</string>
+				<string name="hello_world">Hello world!</string>
+				<string name="menu_settings">Settings</string>
+				<string name="title_activity_main">CallRec</string>
+				<string name="title_activity_settings">SettingsActivity</string>
+				<string name="pref_title_audio_src">Audio source</string>
+
+				<string-array name="pref_audio_src_entries">
+								<item>DEFAULT</item>
+								<item>MIC</item>
+								<item>VOICE_UPLINK</item>
+								<item>VOICE_DOWNLINK</item>
+								<item>VOICE_CALL</item>
+								<item>CAMCORDER</item>
+								<item>VOICE_RECOGNITION</item>
+								<item>VOICE_COMMUNICATION</item>
+				</string-array>
+				<string-array name="pref_audio_fmt_entries">
+								<item>AAC</item>
+								<item>AMR-NB</item>
+								<item>AMR-WB</item>
+				</string-array>
+</resources>

@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+				<ListPreference
+								android:entries="@array/pref_audio_src_entries"
+								android:entryValues="@array/pref_audio_src_values"
+								android:key="pref_audio_src"
+								android:title="@string/pref_title_audio_src" />
+<!--
+				<ListPreference
+								android:entries="@array/pref_audio_fmt_entries"
+								android:entryValues="@array/pref_audio_fmt_values"
+								android:key="pref_audio_fmt"
+								android:title="@string/pref_title_audio_fmt" />
+-->
+</PreferenceScreen>
